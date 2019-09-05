@@ -11,7 +11,7 @@ def camelcase(sentence):
 	return upper_camel_cased[0:1].lower() + upper_camel_cased[1:]
 
 def banner():
-	print("AMAZING CAMELCASE PROGRAM")	 
+	print("AMAZING CAMELCASE PROGRAM\n\n\n")	 
 
 def main():
 	banner()
