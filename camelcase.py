@@ -18,6 +18,7 @@ def banner():
 
 def instructions():
 	inst = "Enter a sentence into the console and it will be trasnformed into a camelcase style variable name!"
+	print(inst)
 
 def main():
 	banner()
