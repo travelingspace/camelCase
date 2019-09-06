@@ -16,8 +16,12 @@ def banner():
 	stars = '*' * len(msg)
 	print(f'\n {stars} \n {msg} \n {stars}\n') 
 
+def instructions():
+	inst = "Enter a sentence into the console and it will be trasnformed into a camelcase style variable name!"
+
 def main():
 	banner()
+	instructions()
 	sentence = input('Enter your sentence: ')
 	output = camelcase(sentence)
 	print(output)
